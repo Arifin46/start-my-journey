@@ -1,0 +1,41 @@
+body{
+    max-width: 1140px;
+    margin: auto;
+    background-color:rgb(218, 250, 250)
+    
+}
+
+.card-father{
+    display: flex;
+    gap: 30px;
+   
+  
+}
+
+.card{
+    text-align: center;
+}
+.card-son{
+    width: 300px;
+    border: 4px solid rgb(58, 57, 66); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px grey;
+    text-align: left;
+    background-color: rgb(170, 243, 218);
+}
+.card-son img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-son:hover{
+    background-color: rgb(33, 173, 173);
+}
+.card-son h3{
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+.card h2{
+    border: 10px;
+}

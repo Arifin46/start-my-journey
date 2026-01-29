@@ -1,0 +1,38 @@
+body{
+    max-width: 1740px ;
+   
+margin: 0 auto;
+}
+.box{
+    text-align: center;
+}.card-header{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap ;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid rgb(39, 136, 201); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px grey;
+    text-align: left;
+}.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.card button{
+    background-color:rgb(199, 161, 156) ;
+    padding: 20px 30px;
+    font-size: 1.25em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: aqua;
+}
